@@ -12,11 +12,12 @@ namespace NewOne
 {
     public class Program
     {
+       
         public static void Main(string[] args)
         {
             BuildWebHost(args).Run();
         }
-
+        aaaa
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
